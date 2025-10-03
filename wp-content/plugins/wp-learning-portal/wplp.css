@@ -1,0 +1,32 @@
+.wplp-reminder {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.wplp-course-list {
+  list-style: disc;
+  margin-left: 1.2rem;
+}
+
+.wplp-search {
+  width: 100%;
+  max-width: 400px;
+  padding: 8px 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.wplp-download {
+  font-size: 12px;
+  color: #0073aa;
+  text-decoration: none;
+  margin-left: 8px;
+}
+
+.wplp-download:hover {
+  text-decoration: underline;
+}

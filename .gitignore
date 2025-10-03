@@ -1,0 +1,49 @@
+# WordPress core files (if using volume mount)
+wp-admin/
+wp-includes/
+*.php
+!wp-content/
+
+# Keep our custom content
+!wp-content/plugins/wp-learning-portal/**
+!wp-content/themes/twentytwentyfive-child/**
+
+# Node modules
+node_modules/
+package-lock.json
+
+# Build artifacts
+wp-content/plugins/wp-learning-portal/frontend/build/
+wp-content/plugins/wp-learning-portal/frontend/node_modules/
+
+# Database
+*.sql
+*.sql.gz
+
+# Docker
+db_data/
+
+# macOS
+.DS_Store
+._*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+error_log
+
+# Environment files
+.env
+.env.local
+
+# Temporary files
+tmp/
+temp/
+*.tmp

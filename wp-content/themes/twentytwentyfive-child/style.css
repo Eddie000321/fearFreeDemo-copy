@@ -1,0 +1,205 @@
+/*
+ Theme Name: Twenty Twenty-Five Child
+ Template: twentytwentyfive
+ Description: Fear Free inspired learning portal theme
+ Version: 1.0.0
+*/
+
+/* ========================================
+   Fear Free Brand Colors
+   ======================================== */
+:root {
+  --fearfree-blue: #0073aa;
+  --fearfree-light-blue: #f7fbff;
+  --fearfree-green: #46b450;
+  --fearfree-gray: #f0f0f0;
+  --fearfree-dark: #333;
+}
+
+/* ========================================
+   Page Layout Improvements
+   ======================================== */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--fearfree-dark);
+}
+
+.site-header {
+  background: linear-gradient(135deg, var(--fearfree-blue) 0%, #005a87 100%);
+  color: white;
+  padding: 20px 0;
+}
+
+.site-title a {
+  color: white !important;
+  font-weight: 700;
+}
+
+/* ========================================
+   Content Area
+   ======================================== */
+.entry-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.entry-content h2 {
+  color: var(--fearfree-blue);
+  font-size: 28px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid var(--fearfree-green);
+}
+
+/* ========================================
+   Plugin Enhancements - Reminder Box
+   ======================================== */
+.wplp-reminder {
+  background: var(--fearfree-light-blue);
+  border-left: 4px solid var(--fearfree-blue);
+  padding: 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  box-shadow: 0 2px 8px rgba(0,115,170,0.1);
+}
+
+.wplp-reminder::before {
+  content: "💡 ";
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+/* ========================================
+   Plugin Enhancements - Course List
+   ======================================== */
+.wplp-course-list {
+  list-style: none;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+.wplp-course-list li {
+  background: white;
+  margin: 15px 0;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid var(--fearfree-green);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.wplp-course-list li:hover {
+  transform: translateX(5px);
+  box-shadow: 0 4px 12px rgba(0,115,170,0.15);
+}
+
+.wplp-course-list li a {
+  color: var(--fearfree-blue);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.wplp-course-list li a:hover {
+  color: #005a87;
+  text-decoration: underline;
+}
+
+/* ========================================
+   Plugin Enhancements - Search Box
+   ======================================== */
+.wplp-search {
+  width: 100%;
+  max-width: 500px;
+  padding: 12px 20px;
+  margin-bottom: 25px;
+  border: 2px solid var(--fearfree-gray);
+  border-radius: 25px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.wplp-search:focus {
+  outline: none;
+  border-color: var(--fearfree-blue);
+  box-shadow: 0 0 0 3px rgba(0,115,170,0.1);
+}
+
+.wplp-search::placeholder {
+  color: #999;
+}
+
+/* ========================================
+   Plugin Enhancements - Download Button
+   ======================================== */
+.wplp-download {
+  display: inline-block;
+  background: var(--fearfree-green);
+  color: white !important;
+  padding: 6px 15px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none !important;
+  margin-left: 15px;
+  transition: background 0.2s;
+}
+
+.wplp-download:hover {
+  background: #399d42;
+  transform: scale(1.05);
+}
+
+/* ========================================
+   Plugin Enhancements - Progress Widget
+   ======================================== */
+.wplp-progress {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  max-width: 600px;
+}
+
+.wplp-progress > div > div {
+  background: var(--fearfree-blue) !important;
+  box-shadow: 0 2px 4px rgba(0,115,170,0.3);
+}
+
+.wplp-progress small {
+  color: var(--fearfree-blue);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* ========================================
+   Responsive Design
+   ======================================== */
+@media (max-width: 768px) {
+  .entry-content {
+    padding: 20px 15px;
+  }
+
+  .entry-content h2 {
+    font-size: 24px;
+  }
+
+  .wplp-course-list li {
+    padding: 15px;
+  }
+
+  .wplp-course-list li a {
+    font-size: 16px;
+  }
+
+  .wplp-download {
+    display: block;
+    margin-left: 0;
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+  }
+}

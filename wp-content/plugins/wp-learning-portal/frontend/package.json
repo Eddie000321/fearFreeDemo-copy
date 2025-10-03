@@ -1,0 +1,16 @@
+{
+  "name": "wplp-frontend",
+  "version": "1.0.0",
+  "description": "React progress widget for WP Learning Portal",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^26.0.0"
+  }
+}
