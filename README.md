@@ -1,12 +1,8 @@
 # Fear Free Inspired WordPress Learning Portal
-
-> **Built for:** Fear Free, LLC - Junior Full Stack Developer Position
-> **Demonstrates:** WordPress development, SQL reporting, Salesforce integration readiness
-
-**What:** WordPress demo for an e-learning platform — custom post type `course`, SQL-based admin reports with CSV export, shortcodes for dynamic content, Salesforce integration stub, child theme customization, and React progress widget.
-
-**Why:** Inspired by Fear Free's approach to veterinary education, this demo showcases modern WordPress full-stack development aligned with the Junior Developer job requirements including WordPress plugin development, SQL development & reporting, and Salesforce familiarity.
-
+<img width="1073" height="931" alt="Screenshot 2025-10-03 at 1 36 59 PM" src="https://github.com/user-attachments/assets/0e3f1ead-412a-440c-b667-3c748e05af04" />
+<img width="856" height="397" alt="Screenshot 2025-10-03 at 1 37 07 PM" src="https://github.com/user-attachments/assets/8c8a9b77-0c57-4fee-a65b-cab41c87f39c" />
+<img width="1103" height="936" alt="Screenshot 2025-10-03 at 1 39 17 PM" src="https://github.com/user-attachments/assets/454aaf25-3520-495f-babc-4581053c0395" />
+<img width="823" height="407" alt="Screenshot 2025-10-03 at 1 43 47 PM" src="https://github.com/user-attachments/assets/35d54e8a-db36-4bd8-ac8d-4e05a1408f7b" />
 **Environment:**
 - PHP 8.2
 - WordPress 6.6
@@ -15,10 +11,8 @@
 - Node.js 18+
 
 ---
-<img width="1073" height="931" alt="Screenshot 2025-10-03 at 1 36 59 PM" src="https://github.com/user-attachments/assets/0e3f1ead-412a-440c-b667-3c748e05af04" />
-<img width="856" height="397" alt="Screenshot 2025-10-03 at 1 37 07 PM" src="https://github.com/user-attachments/assets/8c8a9b77-0c57-4fee-a65b-cab41c87f39c" />
-<img width="823" height="407" alt="Screenshot 2025-10-03 at 1 43 47 PM" src="https://github.com/user-attachments/assets/35d54e8a-db36-4bd8-ac8d-4e05a1408f7b" />
-<img width="1103" height="936" alt="Screenshot 2025-10-03 at 1 39 17 PM" src="https://github.com/user-attachments/assets/454aaf25-3520-495f-babc-4581053c0395" />
+
+
 
 ## Quick Start
 
